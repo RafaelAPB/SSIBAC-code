@@ -1,0 +1,186 @@
+Preparing agent image...
+sha256:3169a4698730d8687ba014ac72ecc91dd5117a07ec93ab26dca11a6cd1f21843
+10.154.0.2
+Starting performance...
+TYPE_3
+TESTING| Issue Count Set to: 100
+[0m[?7h[0mAlice      | [0;34mRegistering Alice with seed d_000000000000000000000000290329[0m
+[0m[0m[?7h[0mAlice      | [0;34mGot DID: LkPc1zMqY1JGGjoKiu2kXV[0m
+[0m[0m[?7h[0mFaber      | [0;34mRegistering Faber with seed d_000000000000000000000000571428[0m
+[0m[0m[?7h[0mFaber      | [0;34mGot DID: 2chFkrZfVCJuU684dsgCz1[0m
+[0m[0m[?7h[0mQualichain | [0;34mRegistering Qualichain with seed d_000000000000000000000000735176[0m
+[0m[0m[?7h[0mQualichain | [0;34mGot DID: 3MRZdaMvXo6dYqTWWgbXWg[0m
+[0m[0m[?7h[0;35mEVALUATION|  Register DIDs: 3.6561s[0m
+[0mAlice      | 
+Alice      | ::::::::::::::::::::::::::::::::::::::::::::::
+Alice      | :: Alice                                    ::
+Alice      | ::                                          ::
+Alice      | ::                                          ::
+Alice      | :: Inbound Transports:                      ::
+Alice      | ::                                          ::
+Alice      | ::   - http://0.0.0.0:8030                  ::
+Alice      | ::                                          ::
+Alice      | :: Outbound Transports:                     ::
+Alice      | ::                                          ::
+Alice      | ::   - http                                 ::
+Alice      | ::   - https                                ::
+Alice      | ::                                          ::
+Alice      | :: Public DID Information:                  ::
+Alice      | ::                                          ::
+Alice      | ::   - DID: LkPc1zMqY1JGGjoKiu2kXV          ::
+Alice      | ::                                          ::
+Alice      | :: Administration API:                      ::
+Alice      | ::                                          ::
+Alice      | ::   - http://0.0.0.0:8031                  ::
+Alice      | ::                                          ::
+Alice      | ::                               ver: 0.4.5 ::
+Alice      | ::::::::::::::::::::::::::::::::::::::::::::::
+Alice      | 
+Alice      | Listening...
+Alice      | 
+Faber      | 
+Faber      | ::::::::::::::::::::::::::::::::::::::::::::::
+Faber      | :: Faber                                    ::
+Faber      | ::                                          ::
+Faber      | ::                                          ::
+Faber      | :: Inbound Transports:                      ::
+Faber      | ::                                          ::
+Faber      | ::   - http://0.0.0.0:8033                  ::
+Faber      | ::                                          ::
+Faber      | :: Outbound Transports:                     ::
+Faber      | ::                                          ::
+Faber      | ::   - http                                 ::
+Faber      | ::   - https                                ::
+Faber      | ::                                          ::
+Faber      | :: Public DID Information:                  ::
+Faber      | ::                                          ::
+Faber      | ::   - DID: 2chFkrZfVCJuU684dsgCz1          ::
+Faber      | ::                                          ::
+Faber      | :: Administration API:                      ::
+Faber      | ::                                          ::
+Faber      | ::   - http://0.0.0.0:8034                  ::
+Faber      | ::                                          ::
+Faber      | ::                               ver: 0.4.5 ::
+Faber      | ::::::::::::::::::::::::::::::::::::::::::::::
+Faber      | 
+Faber      | Listening...
+Faber      | 
+Qualichain | 
+Qualichain | ::::::::::::::::::::::::::::::::::::::::::::::
+Qualichain | :: Qualichain                               ::
+Qualichain | ::                                          ::
+Qualichain | ::                                          ::
+Qualichain | :: Inbound Transports:                      ::
+Qualichain | ::                                          ::
+Qualichain | ::   - http://0.0.0.0:8036                  ::
+Qualichain | ::                                          ::
+Qualichain | :: Outbound Transports:                     ::
+Qualichain | ::                                          ::
+Qualichain | ::   - http                                 ::
+Qualichain | ::   - https                                ::
+Qualichain | ::                                          ::
+Qualichain | :: Public DID Information:                  ::
+Qualichain | ::                                          ::
+Qualichain | ::   - DID: 3MRZdaMvXo6dYqTWWgbXWg          ::
+Qualichain | ::                                          ::
+Qualichain | :: Administration API:                      ::
+Qualichain | ::                                          ::
+Qualichain | ::   - http://0.0.0.0:8037                  ::
+Qualichain | ::                                          ::
+Qualichain | ::                               ver: 0.4.5 ::
+Qualichain | ::::::::::::::::::::::::::::::::::::::::::::::
+Qualichain | 
+Qualichain | Listening...
+Qualichain | 
+[0m[?7h[0;35mEVALUATION| Initialize Agents: 13.0635s[0m
+[0m[0m[?7h[0mFaber      | [0;34mPublishing test schema[0m
+[0m[0m[?7h[0mFaber      | [0;34mSchema ID: 2chFkrZfVCJuU684dsgCz1:2:degree schema:18.8.45[0m
+[0m[0m[?7h[0mFaber      | [0;34mPublishing test credential definition[0m
+[0m[0m[?7h[0mFaber      | [0;34mCredential Definition ID: 2chFkrZfVCJuU684dsgCz1:3:CL:30112:default[0m
+[0m[0m[?7h[0;35mEVALUATION| Publish Schema: 7.6152s[0m
+[0m[0m[?7h[0mFaber      | [0;34mConnected[0m
+[0m[0m[?7h[0;35mEVALUATION|  Connect Tecnico-Alice: 0.1159s[0m
+[0m[?1l[6n[?2004h[?25l[0m[?7l[0m[J[0mIssuing credentials[2C [0m  0.0% [0m[>                            ] [0m  0/[0m100 [0meta [None][79C [0m
+[0mReceiving credentials   0.0% [>                            ]   0/100 eta [None][79C [A[?7h[0m[?25l[?7l[0m
+
+[0m                                                                               [79C [2A[?7h[0m[J[0m[?7h[?2004l[?1l[0m[?7h[0mAlice      | [0;34mConnected[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0mIssuing credentials[2C [0m  0.0% [0m[>                            ] [0m  0/[0m100 [0meta [None][79C [0m
+[0mReceiving credentials   0.0% [>                            ]   0/100 eta [None][79C [A[?7h[0m[?25l[?7l[0m
+
+
+[0m                                                                               [79C [3A[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[J[0m[?7h[?2004l[?1l[0m[?7h[0mFaber      | [0;34mDone starting 100 credential exchanges in 1.23s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0mIssuing credentials[2C [0m  0.0% [0m[>                            ] [0m  0/[0m100 [0meta [None][79C [0m
+[0mReceiving credentials   0.0% [>                            ]   0/100 eta [None][79C [A[?7h[0m[?25l[?7l[0m
+
+
+
+[0m                                                                               [79C [4A[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[58C[0m] [0m [C0/[0m10[C [0meta [ [0m
+[24C[0m2[33C]  [C2/10[C eta [01:52[A[78D[?7h[0m[?25l[?7l[0m
+[77C[0m8[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m3[37C3[13C24[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m4[5C=>[30C4[13C0[A[77D[?7h[0m[?25l[?7l[0m
+[24C[0m5[37C5[11C0[C51[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m6[37C6[13C43[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m7[37C7[13C38[A[78D[?7h[0m[?25l[?7l[0m
+[23C[0m10[6C=>[28C10[13C26[A[78D[?7h[0m[?25l[?7l[0m
+[77C[0m7[A[78D[?7h[0m[?25l[?7l[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[0m
+[76C[0m32[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m1[37C1[14C0[A[78D[?7h[0m[?25l[?7l[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m3[7C=>[28C3[13C26[A[78D[?7h[0m[?25l[?7l[0m
+[77C[0m8[A[78D[?7h[0m[?25l[?7l[0m
+[76C[0m30[A[78D[?7h[0m[?25l[?7l[0m
+[77C[0m2[A[78D[?7h[0m[?25l[?7l[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[0m
+[77C[0m6[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m4[37C4[14C4[A[78D[?7h[0m[?25l[?7l[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m5[8C=>[27C5[14C3[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m7[37C7[13C28[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m8[37C8[14C7[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[24C[0m9[9C=>[26C9[14C5[A[78D[?7h[0m[?25l[?7l[0m
+[23C[0m20[36C20[14C4[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m1[37C1[14C3[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[24C[0m2[37C2[14C2[A[78D[?7h[0m[?25l[?7l[0m
+[77C[0m3[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m3[10C=>[25C3[14C2[A[78D[?7h[0m[?25l[?7l[24C[0m2[37C2[10C05:29[0m
+[24C[0m5[37C5[14C0[A[78D[?7h[0m[?25l[?7l[24C[0m3[37C3[11C3[C38[78D[?7h[0m[?25l[?7l[76C[0m40[0m
+[24C[0m6[11C=>[24C6[13C19[A[78D[?7h[0m[?25l[?7l[24C[0m4[5C=>[30C4[11C2[2C4[78D[?7h[0m[?25l[?7l[77C[0m6[78D[?7h[0m[?25l[?7l[77C[0m7[0m
+[24C[0m8[37C8[14C7[A[78D[?7h[0m[?25l[?7l[77C[0m8[0m
+[23C[0m31[12C=>[22C31[14C5[A[78D[?7h[0m[?25l[?7l[76C[0m51[0m
+[24C[0m2[37C2[A[63D[?7h[0m[?25l[?7l[77C[0m2[0m
+[24C[0m4[13C=>[22C4[14C3[A[78D[?7h[0m[?25l[?7l[77C[0m3[0m
+[24C[0m8[14C=>[21C8[14C1[A[78D[?7h[0m[?25l[?7l[77C[0m4[0m
+[23C[0m42[15C=>[19C42[14C0[A[78D[?7h[0m[?25l[?7l[77C[0m6[0m
+[24C[0m4[37C4[13C09[A[78D[?7h[0m[?25l[?7l[77C[0m7[0m
+[23C[0m51[16C==>[17C51[14C7[A[78D[?7h[0m[?25l[?7l[74C[0m3[C00[78D[?7h[0m[?25l[?7l[77C[0m5[0m
+[24C[0m2[18C=>[17C2[A[63D[?7h[0m[?25l[?7l[24C[0m5[37C5[11C2[C27[0m
+[23C[0m60[19C==>[14C60[14C5[A[78D[?7h[0m[?25l[?7l[77C[0m8[78D[?7h[0m[?25l[?7l[24C[0m6[37C6[13C03[78D[?7h[0m[?25l[?7l[77C[0m7[78D[?7h[0m[?25l[?7l[76C[0m11[78D[?7h[0m[?25l[?7l[77C[0m6[78D[?7h[0m[?25l[?7l[24C[0m7[37C7[11C1[C58[78D[?7h[0m[?25l[?7l[77C[0m9[0m
+[77C[0m6[A[78D[?7h[0m[?25l[?7l[74C[0m2[C02[0m
+[24C[0m1[37C1[14C5[A[78D[?7h[0m[?25l[?7l[24C[0m9[6C=>[29C9[11C1[C34[78D[?7h[0m[?25l[?7l[23C[0m10[36C10[13C2[77D[?7h[0m[?25l[?7l[0m
+[24C[0m3[21C=>[14C3[A[63D[?7h[0m[?25l[?7l[77C[0m6[0m
+[24C[0m4[37C4[A[63D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[24C[0m1[37C1[13C18[78D[?7h[0m[?25l[?7l[24C[0m7[7C==>[27C7[11C0[C47[78D[?7h[0m[?25l[?7l[23C[0m20[9C=>[25C20[13C39[78D[?7h[0m[?25l[?7l[24C[0m6[10C==>[24C6[13C28[78D[?7h[0m[?25l[?7l[23C[0m3[13C==>[21C3[14C17[78D[?7h[0m[?25l[?7l[23C[0m51[14C====>[17C51[13C09[0m
+[24C[0m6[37C6[A[63D[?7h[0m[?25l[?7l[23C[0m60[18C===>[14C60[14C6[0m
+[23C[0m70[22C=>[12C70[14C4[A[78D[?7h[0m[?25l[?7l[24C[0m4[21C=>[14C4[14C5[78D[?7h[0m[?25l[?7l[24C[0m9[22C=>[13C9[14C4[78D[?7h[0m[?25l[?7l[23C[0m70[36C70[63D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[24C[0m1[23C=>[12C1[A[63D[?7h[0m[?25l[?7l[0m
+[24C[0m4[37C4[14C3[A[78D[?7h[0m[?25l[?7l[0m
+[23C[0m91[24C=====>[6C91[14C1[A[78D[?7h[0m[?25l[?7l[24C[0m1[23C=>[12C1[0m
+[22C[0m100[29C===>[2C100[14C0[A[78D[?7h[0m[?25l[?7l[24C[0m4[37C4[14C3[78D[?7h[0m[?25l[?7l[24C[0m5[24C=>[11C5[63D[?7h[0m[?25l[?7l[24C[0m7[37C7[63D[?7h[0m[?25l[?7l[23C[0m82[25C==>[8C82[14C2[78D[?7h[0m[?25l[?7l[23C[0m94[27C===>[5C94[14C0[78D[?7h[0m[?25l[?7l[0m[J[0mIssuing credentials[2C [0m100.0% [0m[===========================>] [0m100/[0m100 [0meta [00:00][79C [0m
+[0mReceiving credentials 100.0% [===========================>] 100/100 eta [00:00][79C [0m
+[J[?7h[0m[?12l[?25h[?2004l[0m[?7h[0mFaber      | [0;34mEVALUATION| (100) Emitted Credentials: 11.56s[0m
+[0m[0m[?7h[0mFaber      | [0;34mEVALUATION| Average time per credential: 0.1156s[0m
+[0m[0m[?7h[0mAlice      | [0;34mConnected[0m
+[0m[0m[?7h[0mQualichain | [0;34mConnected[0m
+[0m[0m[?7h[0;35mEVALUATION|  Connect Alice-Qualichain: 0.1153s[0m
+[0mAlice      | 
+Alice      | Shutting down
+[0m[?7h[0mAlice      | [0;34mExited with return code 0[0m
+[0mFaber      | 
+Faber      | Shutting down
+[0m[?7h[0mFaber      | [0;34mExited with return code 0[0m
+[0mQualichain | 
+Qualichain | Shutting down
+[0m[?7h[0mQualichain | [0;34mExited with return code 0[0m
+[0m[0m[?7h[0;35mEVALUATION| Total runtime: 36.4373s[0m
+[0m

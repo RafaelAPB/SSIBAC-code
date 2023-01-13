@@ -1,0 +1,96 @@
+100 tests for 1, 10,100,1000 creds each, total 400 tests
+Number of arguments: 407 arguments.
+startup_mean 1CRED: 29.029443
+startup_mean 10CRED: 28.479691
+startup_mean 100CRED: 28.25289
+startup_mean 1000CRED: 28.580359
+startup_std 1CRED: 5.455924440575001
+startup_std 10CRED: 5.144159427464385
+startup_std 100CRED: 5.0057152150357505
+startup_std 1000CRED: 4.778344556097527
+connect_mean 1CRED 1.299588
+connect_mean 10CRED 2.464345
+connect_mean 100CRED 11.979339
+connect_mean 1000CRED 108.955775
+connect_std 1CRED 0.03130410074147352
+connect_std 10CRED 0.08797808195249772
+connect_std 100CRED 0.3307442772724646
+connect_std 1000CRED 0.9190220006351929
+ac_mean 1CRED 0.9176
+ac_mean 10CRED 0.9176
+ac_mean 100CRED 0.9176
+ac_mean 1000CRED 0.9176
+ac_stdn 1CRED 1.0537941513091318
+ac_stdn 10CRED 1.0537941513091318
+ac_stdn 100CRED 1.0537941513091318
+ac_stdn 1000CRED 1.0537941513091318
+Number of arguments: 407 arguments.
+startup_mean 1CRED: 29.029443
+startup_mean 10CRED: 28.479691
+startup_mean 100CRED: 28.25289
+startup_mean 1000CRED: 28.580359
+startup_std 1CRED: 5.455924440575001
+startup_std 10CRED: 5.144159427464385
+startup_std 100CRED: 5.0057152150357505
+startup_std 1000CRED: 4.778344556097527
+connect_mean 1CRED 1.299588
+connect_mean 10CRED 2.464345
+connect_mean 100CRED 11.979339
+connect_mean 1000CRED 108.955775
+connect_std 1CRED 0.03130410074147352
+connect_std 10CRED 0.08797808195249772
+connect_std 100CRED 0.3307442772724646
+connect_std 1000CRED 0.9190220006351929
+ac_mean 1CRED 0.9176
+ac_mean 10CRED 0.9176
+ac_mean 100CRED 0.9176
+ac_mean 1000CRED 0.9176
+ac_stdn 1CRED 1.0537941513091318
+ac_stdn 10CRED 1.0537941513091318
+ac_stdn 100CRED 1.0537941513091318
+ac_stdn 1000CRED 1.0537941513091318
+
+100 tests for 1, 10,100,1000 creds each, removing first 10 and last 10, total 380 tests
+
+Number of arguments: 387 arguments.
+startup_mean 1CRED: 29.14425888888889
+startup_mean 10CRED: 28.53160777777778
+startup_mean 100CRED: 27.99870111111111
+startup_mean 1000CRED: 28.68161
+startup_std 1CRED: 5.548837391254408
+startup_std 10CRED: 5.241802024890016
+startup_std 100CRED: 4.851922409818363
+startup_std 1000CRED: 4.841750923287701
+
+connect_mean 1CRED 1.2999566666666666
+connect_mean 10CRED 2.4651155555555557
+connect_mean 100CRED 11.965935555555555
+connect_mean 1000CRED 108.92878222222222
+
+connect_std 1CRED 0.03136923652242751
+connect_std 10CRED 0.08923880335912616
+connect_std 100CRED 0.3330362838521465
+connect_std 1000CRED 0.920910065705984
+ac_mean 1CRED 0.9176
+ac_mean 10CRED 0.9176
+ac_mean 100CRED 0.9176
+ac_mean 1000CRED 0.9176
+ac_stdn 1CRED 1.0537941513091318
+ac_stdn 10CRED 1.0537941513091318
+ac_stdn 100CRED 1.0537941513091318
+ac_stdn 1000CRED 1.0537941513091318
+
+
+============= durations_10_credential =================
+Total Runtime:  31.914323333333332
+Register DIDs:  3.68766
+Init Agents:  13.085268000000001
+Publish Schema Duration:  11.706763
+Connect Alice-IST:  0.114685
+Emit Credential:  2.2288
+Connect Alice-Qualichain:  0.12086
+Construct Proof Request 0.35467666666666664
+Construct proof to Tecnico 0.18943387096774195
+Handling Presentation Proof 0.35467666666666664
+Evaluating Access Control Request  0.00021
+TOTAL TIME:  31.914323333333332

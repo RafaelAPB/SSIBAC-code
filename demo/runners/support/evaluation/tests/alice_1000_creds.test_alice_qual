@@ -1,0 +1,640 @@
+Preparing agent image...
+sha256:054bdd57a139cd9bff3f2c027d22139ead0006c5cedbcde9dae403ca45dd4759
+172.17.0.1
+Starting alice...
+[0m[?7h[0;1m
+#7 Provision an agent and wallet, get back configuration details[0m
+[0mAlice      | 
+Alice      | ::::::::::::::::::::::::::::::::::::::::::::::
+Alice      | :: Alice Agent                              ::
+Alice      | ::                                          ::
+Alice      | ::                                          ::
+Alice      | :: Inbound Transports:                      ::
+Alice      | ::                                          ::
+Alice      | ::   - http://0.0.0.0:8030                  ::
+Alice      | ::                                          ::
+Alice      | :: Outbound Transports:                     ::
+Alice      | ::                                          ::
+Alice      | ::   - http                                 ::
+Alice      | ::   - https                                ::
+Alice      | ::                                          ::
+Alice      | :: Administration API:                      ::
+Alice      | ::                                          ::
+Alice      | ::   - http://0.0.0.0:8031                  ::
+Alice      | ::                                          ::
+Alice      | ::                               ver: 0.4.5 ::
+Alice      | ::::::::::::::::::::::::::::::::::::::::::::::
+Alice      | 
+Alice      | Listening...
+Alice      | 
+[0m[?7h[0;35mStartup duration: 5.0328s[0m
+[0m[0m[?7h[0;35mAdmin url is at: http://172.17.0.1:8031[0m
+[0m[0m[?7h[0;35mEndpoint url is at: http://172.17.0.1:8030[0m
+[0m[0m[?7h[0;1m
+#9 Input faber.py invitation details[0m
+[0m[?1l[6n[?2004h[?25l[0m[?7l[0m[J[0mInvite details:                                                                [79C [16C[?7h[0m[?12l[?25h[?25l[?7l[16D[0mInvite details:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [13A[16C[?7h[0m[?12l[?25h[?25l[?7l[0m{"@type": "did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/connections/1.0/[79Ci[0m
+[0mnvitation", "@id": "e1972d47-0b5c-4eae-b330-abeac512d8d2", "serviceEndpoint": "[79Ch[0m
+[0mttp://172.17.0.1:8020", "label": "Tecnico Lisboa Agent", "recipientKeys": ["6hu[79C7[0m
+[0mDw5xQ9UhmVUBPwbJzgdtSLxKU7zczW2oUvVr5Lvq"]}                                    [79C [43C[?7h[0m[?12l[?25h[?25l[?7l[3A[43D[0m[J[0mInvite details: {"@type": "did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/connections/1.0/[79Ci[0m
+[0mnvitation", "@id": "e1972d47-0b5c-4eae-b330-abeac512d8d2", "serviceEndpoint": "[79Ch[0m
+[0mttp://172.17.0.1:8020", "label": "Tecnico Lisboa Agent", "recipientKeys": ["6hu[79C7[0m
+[0mDw5xQ9UhmVUBPwbJzgdtSLxKU7zczW2oUvVr5Lvq"]}                                    [79C [0m
+[J[?7h[0m[?12l[?25h[?2004l[0m[?7h[0;35mInvitation response:[0m
+[0m[0m[?7h[0m  [0m{[0m[0m
+[0m  [0m  [0;38;5;28;1m"updated_at"[0m:[0m [0;38;5;124m"2020-06-13 11:22:58.622419Z"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"request_id"[0m:[0m [0;38;5;124m"84205c59-361f-472b-9868-6b849cfc5ac2"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"invitation_mode"[0m:[0m [0;38;5;124m"once"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"connection_id"[0m:[0m [0;38;5;124m"57c1fc2d-b65c-45fe-887f-0408fee33ed3"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"state"[0m:[0m [0;38;5;124m"request"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"initiator"[0m:[0m [0;38;5;124m"external"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"their_label"[0m:[0m [0;38;5;124m"Tecnico Lisboa Agent"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"routing_state"[0m:[0m [0;38;5;124m"none"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"accept"[0m:[0m [0;38;5;124m"auto"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"my_did"[0m:[0m [0;38;5;124m"LmKYxrp918HbQy1QbrQzAb"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"created_at"[0m:[0m [0;38;5;124m"2020-06-13 11:22:58.605484Z"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"invitation_key"[0m:[0m [0;38;5;124m"6hu7Dw5xQ9UhmVUBPwbJzgdtSLxKU7zczW2oUvVr5Lvq"[0m[0m
+[0m  [0m[0m}[0m[0m
+[0m  [0m[0m
+[0m[0m[?7h[0mAlice      | [0;34mConnected[0m
+[0m[0m[?7h[0;35mConnect duration: 0.1302s[0m
+[0m[?1l[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [9A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0mAlice      | [0;34mCredential: state = offer_received , credential_exchange_id = 9becd382-3d7b-418a-97f1-5e4cfd42af04[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#15 After receiving credential offer, send credential request[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[?25l[?7l[0m5 [?7h[0m[?12l[?25h[?25l[?7l[?7h[0m[?12l[?25h[?25l[?7l[4A[10D[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]: 5                                                                     [79C [0m
+[J[?7h[0m[?12l[?25h[?2004l[0m[?7h[0;1m
+#7 Create a connection to alice and print out the invite details[0m
+[0m[0m[?7h[0;35mGenerate invitation duration: 0.0214s[0m
+[0m[0m[?7h[0;35mInvitation:
+[0;38;5;196m"CONNECTION"[0m
+[0m{'connection_id': '889b7c58-617b-47a3-af07-e50d273bec60', 'invitation': {'@type': 'did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/connections/1.0/invitation', '@id': '35639f52-d940-4d1f-945f-d45108200385', 'serviceEndpoint': 'http://172.17.0.1:8030', 'recipientKeys': ['DSFb1ihFgCHjYvZxo76jiqyL4g94EcWGM4ivxyN3B8d1'], 'label': 'Alice Agent'}, 'invitation_url': 'http://172.17.0.1:8030?c_i=eyJAdHlwZSI6ICJkaWQ6c292OkJ6Q2JzTlloTXJqSGlxWkRUVUFTSGc7c3BlYy9jb25uZWN0aW9ucy8xLjAvaW52aXRhdGlvbiIsICJAaWQiOiAiMzU2MzlmNTItZDk0MC00ZDFmLTk0NWYtZDQ1MTA4MjAwMzg1IiwgInNlcnZpY2VFbmRwb2ludCI6ICJodHRwOi8vMTcyLjE3LjAuMTo4MDMwIiwgInJlY2lwaWVudEtleXMiOiBbIkRTRmIxaWhGZ0NIall2WnhvNzZqaXF5TDRnOTRFY1dHTTRpdnh5TjNCOGQxIl0sICJsYWJlbCI6ICJBbGljZSBBZ2VudCJ9'}
+[0m[?7h[0;35mInvitation response:[0m
+[0m[0m[?7h[0m  [0m{[0m[0m
+[0m  [0m  [0;38;5;28;1m"connection_id"[0m:[0m [0;38;5;124m"889b7c58-617b-47a3-af07-e50d273bec60"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"invitation"[0m:[0m [0m{[0m[0m
+[0m  [0m    [0;38;5;129m"@type"[0m:[0m [0;38;5;124m"did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/connections/1.0/invitation"[0m,[0m[0m
+[0m  [0m    [0;38;5;129m"@id"[0m:[0m [0;38;5;124m"35639f52-d940-4d1f-945f-d45108200385"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"serviceEndpoint"[0m:[0m [0;38;5;124m"http://172.17.0.1:8030"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"recipientKeys"[0m:[0m [0m[[0m[0m
+[0m  [0m      [0;38;5;124m"DSFb1ihFgCHjYvZxo76jiqyL4g94EcWGM4ivxyN3B8d1"[0m[0m
+[0m  [0m    [0m][0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"label"[0m:[0m [0;38;5;124m"Alice Agent"[0m[0m
+[0m  [0m  [0m}[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"invitation_url"[0m:[0m [0;38;5;124m"http://172.17.0.1:8030?c_i=eyJAdHlwZSI6ICJkaWQ6c292OkJ6Q2JzTlloTXJqSGlxWkRUVUFTSGc7c3BlYy9jb25uZWN0aW9ucy8xLjAvaW52aXRhdGlvbiIsICJAaWQiOiAiMzU2MzlmNTItZDk0MC00ZDFmLTk0NWYtZDQ1MTA4MjAwMzg1IiwgInNlcnZpY2VFbmRwb2ludCI6ICJodHRwOi8vMTcyLjE3LjAuMTo4MDMwIiwgInJlY2lwaWVudEtleXMiOiBbIkRTRmIxaWhGZ0NIall2WnhvNzZqaXF5TDRnOTRFY1dHTTRpdnh5TjNCOGQxIl0sICJsYWJlbCI6ICJBbGljZSBBZ2VudCJ9"[0m[0m
+[0m  [0m[0m}[0m[0m
+[0m  [0m[0m
+[0m[0m[?7h[0;35m*****************[0m
+[0mInvitation:
+{"@type": "did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/connections/1.0/invitation", "@id": "35639f52-d940-4d1f-945f-d45108200385", "serviceEndpoint": "http://172.17.0.1:8030", "recipientKeys": ["DSFb1ihFgCHjYvZxo76jiqyL4g94EcWGM4ivxyN3B8d1"], "label": "Alice Agent"}
+[0m[?7h[0;35m*****************[0m
+[0m[0m[?7h[0;35mWaiting for connection...[0m
+[0m[0m[?7h[0;35mChange:
+[0;38;5;196m"INBOUND CONNECTION WILL BE CHANGED TO QUALICHAIN UPPON ACCEPTANCE"[0m
+[0m[?1l[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [9A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0mAlice      | [0;34mCredential: state = request_sent , credential_exchange_id = 9becd382-3d7b-418a-97f1-5e4cfd42af04[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0mAlice      | [0;34mCredential: state = credential_received , credential_exchange_id = 9becd382-3d7b-418a-97f1-5e4cfd42af04[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0mAlice      | [0;34mCredential: state = credential_acked , credential_exchange_id = 9becd382-3d7b-418a-97f1-5e4cfd42af04[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0mAlice      | [0;34mStored credential aceada75-0112-4e7e-8a1f-0b4d5540ff75 in wallet[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#18.1 Stored credential aceada75-0112-4e7e-8a1f-0b4d5540ff75 in wallet[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mCredential details:[0m
+[0m[0m[?7h[0m  [0m{[0m[0m
+[0m  [0m  [0;38;5;28;1m"referent"[0m:[0m [0;38;5;124m"aceada75-0112-4e7e-8a1f-0b4d5540ff75"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"attrs"[0m:[0m [0m{[0m[0m
+[0m  [0m    [0;38;5;28;1m"skills"[0m:[0m [0;38;5;124m""[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"university"[0m:[0m [0;38;5;124m"IST"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"gradeScale"[0m:[0m [0;38;5;124m"0-4"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"course"[0m:[0m [0;38;5;124m"Computer Science"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"type"[0m:[0m [0;38;5;124m"BachelorDegree"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"degreeId"[0m:[0m [0;38;5;124m"80970"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"name"[0m:[0m [0;38;5;124m"Bachelor of Science"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"lastName"[0m:[0m [0;38;5;124m"Smith"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"timestamp"[0m:[0m [0;38;5;124m"1592047384"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"id"[0m:[0m [0;38;5;124m"1234"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"age"[0m:[0m [0;38;5;124m"25"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"firstName"[0m:[0m [0;38;5;124m"Alice"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"grade"[0m:[0m [0;38;5;124m"4"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"EQF"[0m:[0m [0;38;5;124m"6"[0m[0m
+[0m  [0m  [0m}[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"schema_id"[0m:[0m [0;38;5;124m"CBVvQ1pcPf8q8QjHjofDbm:2:degree schema:29.91.73"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"cred_def_id"[0m:[0m [0;38;5;124m"CBVvQ1pcPf8q8QjHjofDbm:3:CL:20530:default"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"rev_reg_id"[0m:[0m [0;38;5;28;1mnull[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"cred_rev_id"[0m:[0m [0;38;5;28;1mnull[0m[0m
+[0m  [0m[0m}[0m[0m
+[0m  [0m[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [9A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mCredential request metadata:[0m
+[0m[0m[?7h[0m  [0m{[0m[0m
+[0m  [0m  [0;38;5;28;1m"master_secret_blinding_data"[0m:[0m [0m{[0m[0m
+[0m  [0m    [0;38;5;28;1m"v_prime"[0m:[0m [0;38;5;124m"5563355933292308571816101258506050426867394385870034459504080833964963037092457389055466619657675722219265912754044253567237343224077496239333863914951789002998152251898788018886319498989929492863947283316541568765569767224612739183613637496742390820733122693081557560166437407499995547419882257460602971105856171591469656989057238417023540253687073914531172266449893716685476362313955538511142459795470215731794302707109418732707224788078895864663374326615880079769083084304559847316451442839724224002634801819745170839919003091405710349147470180401226597680492390172760683226659549454339146976996070803159201294218470144250240892491311491"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"vr_prime"[0m:[0m [0;38;5;28;1mnull[0m[0m
+[0m  [0m  [0m}[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"nonce"[0m:[0m [0;38;5;124m"1173702692472873524780894"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"master_secret_name"[0m:[0m [0;38;5;124m"aliceagent953555"[0m[0m
+[0m  [0m[0m}[0m[0m
+[0m  [0m[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [9A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0mAlice      | [0;34mcredential_id aceada75-0112-4e7e-8a1f-0b4d5540ff75[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0mAlice      | [0;34mcredential_definition_id CBVvQ1pcPf8q8QjHjofDbm:3:CL:20530:default[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0mAlice      | [0;34mschema_id CBVvQ1pcPf8q8QjHjofDbm:2:degree schema:29.91.73[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mPresentation: state = request_received , presentation_exchange_id = 92537435-43d5-4cad-8e6e-70b722ca3a55[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#24 Query for credentials in the wallet that satisfy the proof request[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#25 Generate the proof[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#26 Send the proof to X[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mPresentation: state = presentation_sent , presentation_exchange_id = 92537435-43d5-4cad-8e6e-70b722ca3a55[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mEVALUATION| Construct proof to Tecnico: 0.0001s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mEVALUATION| Construct proof to Tecnico: 1.5563s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [19A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0mAlice      | [0;31m2020-06-13 11:23:16,066 aries_cloudagent.transport.outbound.manager ERROR >>> Posting error: http://172.17.0.1:8040; Re-queue failed message ...
+[0m[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[?25l[?7l[0mx [?7h[0m[?12l[?25h[?25l[?7l[?7h[0m[?12l[?25h[?25l[?7l[4A[10D[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]: x                                                                     [79C [0m
+[J[?7h[0m[?12l[?25h[?2004lAlice      | 
+Alice      | Shutting down
+[0m[?7h[0mAlice      | [0;31m2020-06-13 11:23:17,885 aries_cloudagent.transport.outbound.manager ERROR Exception in outbound queue processing:
+[0m[0m[0m[?7h[0mAlice      | [0;31mconcurrent.futures._base.CancelledError: Task was cancelled
+[0m[0m[0m[?7h[0mAlice      | [0;34mExited with return code 0[0m
+[0m

@@ -1,0 +1,1913 @@
+Preparing agent image...
+sha256:028b0022777727d017f6144049914e13cf8e3f0e42adcfb753e8110819a47128
+172.17.0.1
+Starting alice...
+[0m[?7h[0;1m
+#7 Provision an agent and wallet, get back configuration details[0m
+[0mAlice      | 
+Alice      | ::::::::::::::::::::::::::::::::::::::::::::::
+Alice      | :: Alice Agent                              ::
+Alice      | ::                                          ::
+Alice      | ::                                          ::
+Alice      | :: Inbound Transports:                      ::
+Alice      | ::                                          ::
+Alice      | ::   - http://0.0.0.0:8030                  ::
+Alice      | ::                                          ::
+Alice      | :: Outbound Transports:                     ::
+Alice      | ::                                          ::
+Alice      | ::   - http                                 ::
+Alice      | ::   - https                                ::
+Alice      | ::                                          ::
+Alice      | :: Administration API:                      ::
+Alice      | ::                                          ::
+Alice      | ::   - http://0.0.0.0:8031                  ::
+Alice      | ::                                          ::
+Alice      | ::                               ver: 0.4.5 ::
+Alice      | ::::::::::::::::::::::::::::::::::::::::::::::
+Alice      | 
+Alice      | Listening...
+Alice      | 
+[0m[?7h[0;35mStartup duration: 6.0468s[0m
+[0m[0m[?7h[0;35mAdmin url is at: http://172.17.0.1:8031[0m
+[0m[0m[?7h[0;35mEndpoint url is at: http://172.17.0.1:8030[0m
+[0m[0m[?7h[0;1m
+#9 Input faber.py invitation details[0m
+[0m[?1l[6n[?2004h[?25l[0m[?7l[0m[J[0mInvite details:                                                                [79C [16C[?7h[0m[?12l[?25h[?25l[?7l[16D[0mInvite details:  [0m[K[0m
+
+
+
+
+[0m                                                                               [79C [5A[16C[?7h[0m[?12l[?25h[?25l[?7l[0m{"@type": "did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/connections/1.0/[79Ci[0m
+[0mnvitation", "@id": "07c38c77-ae3b-455c-885a-f8cf4a372489", "serviceEndpoint": "[79Ch[0m
+[0mttp://172.17.0.1:8020", "label": "Tecnico Lisboa Agent", "recipientKeys": ["5Ky[79CQ[0m
+[0mqEEUJ8nnFUqxAextLEr2CMjm9LeoFAsLmh3Qaz9w"]}                                    [79C [43C[?7h[0m[?12l[?25h[?25l[?7l[3A[43D[0m[J[0mInvite details: {"@type": "did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/connections/1.0/[79Ci[0m
+[0mnvitation", "@id": "07c38c77-ae3b-455c-885a-f8cf4a372489", "serviceEndpoint": "[79Ch[0m
+[0mttp://172.17.0.1:8020", "label": "Tecnico Lisboa Agent", "recipientKeys": ["5Ky[79CQ[0m
+[0mqEEUJ8nnFUqxAextLEr2CMjm9LeoFAsLmh3Qaz9w"]}                                    [79C [0m
+[J[?7h[0m[?12l[?25h[?2004l[0m[?7h[0;35mInvitation response:[0m
+[0m[0m[?7h[0m  [0m{[0m[0m
+[0m  [0m  [0;38;5;28;1m"initiator"[0m:[0m [0;38;5;124m"external"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"connection_id"[0m:[0m [0;38;5;124m"1b91e2d3-6713-4174-ae36-9e7a18abda9f"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"created_at"[0m:[0m [0;38;5;124m"2020-06-03 23:48:23.472230Z"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"state"[0m:[0m [0;38;5;124m"request"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"invitation_mode"[0m:[0m [0;38;5;124m"once"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"updated_at"[0m:[0m [0;38;5;124m"2020-06-03 23:48:23.479388Z"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"invitation_key"[0m:[0m [0;38;5;124m"5KyQqEEUJ8nnFUqxAextLEr2CMjm9LeoFAsLmh3Qaz9w"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"routing_state"[0m:[0m [0;38;5;124m"none"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"their_label"[0m:[0m [0;38;5;124m"Tecnico Lisboa Agent"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"accept"[0m:[0m [0;38;5;124m"auto"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"request_id"[0m:[0m [0;38;5;124m"5162a988-87d9-425a-8ed8-47b66bf9e58b"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"my_did"[0m:[0m [0;38;5;124m"FtNEtZ8Zo67qEeQTwKosj6"[0m[0m
+[0m  [0m[0m}[0m[0m
+[0m  [0m[0m
+[0m[0m[?7h[0mAlice      | [0;34mConnected[0m
+[0m[0m[?7h[0;35mConnect duration: 0.1136s[0m
+[0m[?1l[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+[0m                                                                               [79C [A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0mAlice      | [0;34mCredential: state = offer_received , credential_exchange_id = 60fb701d-a337-4300-993e-6cd5a31800f6[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+[0m                                                                               [79C [5A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#15 After receiving credential offer, send credential request[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+[0m                                                                               [79C [8A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0mAlice      | [0;34mCredential: state = request_sent , credential_exchange_id = 60fb701d-a337-4300-993e-6cd5a31800f6[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [12A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0mAlice      | [0;34mCredential: state = credential_received , credential_exchange_id = 60fb701d-a337-4300-993e-6cd5a31800f6[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [16A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0mAlice      | [0;34mCredential: state = credential_acked , credential_exchange_id = 60fb701d-a337-4300-993e-6cd5a31800f6[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0mAlice      | [0;34mStored credential c7e44bb1-33bc-46c8-95de-0d8f6c8a3ee3 in wallet[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#18.1 Stored credential c7e44bb1-33bc-46c8-95de-0d8f6c8a3ee3 in wallet[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mCredential details:[0m
+[0m[0m[?7h[0m  [0m{[0m[0m
+[0m  [0m  [0;38;5;28;1m"referent"[0m:[0m [0;38;5;124m"c7e44bb1-33bc-46c8-95de-0d8f6c8a3ee3"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"attrs"[0m:[0m [0m{[0m[0m
+[0m  [0m    [0;38;5;28;1m"lastName"[0m:[0m [0;38;5;124m"Smith"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"grade"[0m:[0m [0;38;5;124m"4"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"gradeScale"[0m:[0m [0;38;5;124m"0-4"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"type"[0m:[0m [0;38;5;124m"BachelorDegree"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"degreeId"[0m:[0m [0;38;5;124m"80970"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"university"[0m:[0m [0;38;5;124m"IST"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"name"[0m:[0m [0;38;5;124m"Bachelor of Science"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"EQF"[0m:[0m [0;38;5;124m"6"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"course"[0m:[0m [0;38;5;124m"Computer Science"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"skills"[0m:[0m [0;38;5;124m""[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"id"[0m:[0m [0;38;5;124m"1234"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"firstName"[0m:[0m [0;38;5;124m"Alice"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"timestamp"[0m:[0m [0;38;5;124m"1591228105"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"age"[0m:[0m [0;38;5;124m"25"[0m[0m
+[0m  [0m  [0m}[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"schema_id"[0m:[0m [0;38;5;124m"QDEx4Jy3vJmscdQJP8x22R:2:degree schema:70.77.51"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"cred_def_id"[0m:[0m [0;38;5;124m"QDEx4Jy3vJmscdQJP8x22R:3:CL:18766:default"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"rev_reg_id"[0m:[0m [0;38;5;28;1mnull[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"cred_rev_id"[0m:[0m [0;38;5;28;1mnull[0m[0m
+[0m  [0m[0m}[0m[0m
+[0m  [0m[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+[0m                                                                               [79C [A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mCredential request metadata:[0m
+[0m[0m[?7h[0m  [0m{[0m[0m
+[0m  [0m  [0;38;5;28;1m"master_secret_blinding_data"[0m:[0m [0m{[0m[0m
+[0m  [0m    [0;38;5;28;1m"v_prime"[0m:[0m [0;38;5;124m"26983544963189427156262315328910522856399725782244859662274448674365278269461562263961971833333718860002309414607196786721000847694513585174471702766342447000376407573269905293939749360099782305193991624085121830603338852004686813898349635342633666257859742376428738584067377737196670503220886850290884702881235932481644990114587790798571484920148693623686484229260946793320751947939341008969342307960014945300959448283624022100308253708567266592766594896983269142334626887303696153186484115283754990823576792964028200507212992166713836666352515316885378628188799505351593831780100010776761488309944843914269120356820391851903023553319276846"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"vr_prime"[0m:[0m [0;38;5;28;1mnull[0m[0m
+[0m  [0m  [0m}[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"nonce"[0m:[0m [0;38;5;124m"317034386110349380305929"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"master_secret_name"[0m:[0m [0;38;5;124m"aliceagent457129"[0m[0m
+[0m  [0m[0m}[0m[0m
+[0m  [0m[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+[0m                                                                               [79C [A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0mAlice      | [0;34mcredential_id c7e44bb1-33bc-46c8-95de-0d8f6c8a3ee3[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+[0m                                                                               [79C [5A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0mAlice      | [0;34mcredential_definition_id QDEx4Jy3vJmscdQJP8x22R:3:CL:18766:default[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [9A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0mAlice      | [0;34mschema_id QDEx4Jy3vJmscdQJP8x22R:2:degree schema:70.77.51[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [13A[9C[?7h[0m[?12l[?25h[?25l[?7l[0m5 [?7h[0m[?12l[?25h[?25l[?7l[?7h[0m[?12l[?25h[?25l[?7l[4A[10D[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]: 5                                                                     [79C [0m
+[J[?7h[0m[?12l[?25h[?2004l[0m[?7h[0;1m
+#7 Create a connection to alice and print out the invite details[0m
+[0m[0m[?7h[0;35mGenerate invitation duration: 0.0280s[0m
+[0m[0m[?7h[0;35mInvitation:
+[0;38;5;196m"CONNECTION"[0m
+[0m{'connection_id': '05c14f4a-e885-4b96-a8af-4f2c568e83bd', 'invitation': {'@type': 'did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/connections/1.0/invitation', '@id': 'd015f3c3-b879-4867-933c-fe4b47ac507a', 'label': 'Alice Agent', 'serviceEndpoint': 'http://172.17.0.1:8030', 'recipientKeys': ['8MFndsH8oSXrNrERgvhaLoU653apKN7zyZpphoiGMi2g']}, 'invitation_url': 'http://172.17.0.1:8030?c_i=eyJAdHlwZSI6ICJkaWQ6c292OkJ6Q2JzTlloTXJqSGlxWkRUVUFTSGc7c3BlYy9jb25uZWN0aW9ucy8xLjAvaW52aXRhdGlvbiIsICJAaWQiOiAiZDAxNWYzYzMtYjg3OS00ODY3LTkzM2MtZmU0YjQ3YWM1MDdhIiwgImxhYmVsIjogIkFsaWNlIEFnZW50IiwgInNlcnZpY2VFbmRwb2ludCI6ICJodHRwOi8vMTcyLjE3LjAuMTo4MDMwIiwgInJlY2lwaWVudEtleXMiOiBbIjhNRm5kc0g4b1NYck5yRVJndmhhTG9VNjUzYXBLTjd6eVpwcGhvaUdNaTJnIl19'}
+[0m[?7h[0;35mInvitation response:[0m
+[0m[0m[?7h[0m  [0m{[0m[0m
+[0m  [0m  [0;38;5;28;1m"connection_id"[0m:[0m [0;38;5;124m"05c14f4a-e885-4b96-a8af-4f2c568e83bd"[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"invitation"[0m:[0m [0m{[0m[0m
+[0m  [0m    [0;38;5;129m"@type"[0m:[0m [0;38;5;124m"did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/connections/1.0/invitation"[0m,[0m[0m
+[0m  [0m    [0;38;5;129m"@id"[0m:[0m [0;38;5;124m"d015f3c3-b879-4867-933c-fe4b47ac507a"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"label"[0m:[0m [0;38;5;124m"Alice Agent"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"serviceEndpoint"[0m:[0m [0;38;5;124m"http://172.17.0.1:8030"[0m,[0m[0m
+[0m  [0m    [0;38;5;28;1m"recipientKeys"[0m:[0m [0m[[0m[0m
+[0m  [0m      [0;38;5;124m"8MFndsH8oSXrNrERgvhaLoU653apKN7zyZpphoiGMi2g"[0m[0m
+[0m  [0m    [0m][0m[0m
+[0m  [0m  [0m}[0m,[0m[0m
+[0m  [0m  [0;38;5;28;1m"invitation_url"[0m:[0m [0;38;5;124m"http://172.17.0.1:8030?c_i=eyJAdHlwZSI6ICJkaWQ6c292OkJ6Q2JzTlloTXJqSGlxWkRUVUFTSGc7c3BlYy9jb25uZWN0aW9ucy8xLjAvaW52aXRhdGlvbiIsICJAaWQiOiAiZDAxNWYzYzMtYjg3OS00ODY3LTkzM2MtZmU0YjQ3YWM1MDdhIiwgImxhYmVsIjogIkFsaWNlIEFnZW50IiwgInNlcnZpY2VFbmRwb2ludCI6ICJodHRwOi8vMTcyLjE3LjAuMTo4MDMwIiwgInJlY2lwaWVudEtleXMiOiBbIjhNRm5kc0g4b1NYck5yRVJndmhhTG9VNjUzYXBLTjd6eVpwcGhvaUdNaTJnIl19"[0m[0m
+[0m  [0m[0m}[0m[0m
+[0m  [0m[0m
+[0m[0m[?7h[0;35m*****************[0m
+[0mInvitation:
+{"@type": "did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/connections/1.0/invitation", "@id": "d015f3c3-b879-4867-933c-fe4b47ac507a", "label": "Alice Agent", "serviceEndpoint": "http://172.17.0.1:8030", "recipientKeys": ["8MFndsH8oSXrNrERgvhaLoU653apKN7zyZpphoiGMi2g"]}
+[0m[?7h[0;35m*****************[0m
+[0m[0m[?7h[0;35mWaiting for connection...[0m
+[0m[0m[?7h[0;35mChange:
+[0;38;5;196m"INBOUND CONNECTION WILL BE CHANGED TO QUALICHAIN UPPON ACCEPTANCE"[0m
+[0m[?1l[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+[0m                                                                               [79C [A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mPresentation: state = request_received , presentation_exchange_id = 27864e07-890c-499f-ab78-d0e7af1a11f9[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+[0m                                                                               [79C [5A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#24 Query for credentials in the wallet that satisfy the proof request[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+[0m                                                                               [79C [8A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#25 Generate the proof[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [11A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#26 Send the proof to X[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [14A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mPresentation: state = request_received , presentation_exchange_id = 496e5f33-8934-4e0a-8c64-4969fb8def81[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#24 Query for credentials in the wallet that satisfy the proof request[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#25 Generate the proof[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#26 Send the proof to X[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mPresentation: state = presentation_sent , presentation_exchange_id = 27864e07-890c-499f-ab78-d0e7af1a11f9[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mEVALUATION| Construct proof to Tecnico: 0.0001s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mEVALUATION| Construct proof to Tecnico: 1.9575s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mPresentation: state = presentation_sent , presentation_exchange_id = 496e5f33-8934-4e0a-8c64-4969fb8def81[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mEVALUATION| Construct proof to Tecnico: 0.0001s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mEVALUATION| Construct proof to Tecnico: 0.3193s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mPresentation: state = request_received , presentation_exchange_id = f1287f27-872a-4345-b44c-34c8b5317abb[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#24 Query for credentials in the wallet that satisfy the proof request[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#25 Generate the proof[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#26 Send the proof to X[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mPresentation: state = presentation_sent , presentation_exchange_id = f1287f27-872a-4345-b44c-34c8b5317abb[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mEVALUATION| Construct proof to Tecnico: 0.0001s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mEVALUATION| Construct proof to Tecnico: 0.1326s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mPresentation: state = request_received , presentation_exchange_id = 896e677e-0e80-4130-937c-bd9b2d890566[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#24 Query for credentials in the wallet that satisfy the proof request[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#25 Generate the proof[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#26 Send the proof to X[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mPresentation: state = presentation_sent , presentation_exchange_id = 896e677e-0e80-4130-937c-bd9b2d890566[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mEVALUATION| Construct proof to Tecnico: 0.0004s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mEVALUATION| Construct proof to Tecnico: 0.1370s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mPresentation: state = request_received , presentation_exchange_id = e01ff838-741b-4f1b-a78e-9f74ca6d7e76[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#24 Query for credentials in the wallet that satisfy the proof request[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#25 Generate the proof[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#26 Send the proof to X[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mPresentation: state = presentation_sent , presentation_exchange_id = e01ff838-741b-4f1b-a78e-9f74ca6d7e76[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mEVALUATION| Construct proof to Tecnico: 0.0001s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mEVALUATION| Construct proof to Tecnico: 0.1300s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mPresentation: state = request_received , presentation_exchange_id = 7611af89-2258-46e7-a622-6131a01bb9e7[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#24 Query for credentials in the wallet that satisfy the proof request[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#25 Generate the proof[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#26 Send the proof to X[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mPresentation: state = presentation_sent , presentation_exchange_id = 7611af89-2258-46e7-a622-6131a01bb9e7[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mEVALUATION| Construct proof to Tecnico: 0.0001s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mEVALUATION| Construct proof to Tecnico: 0.1281s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mPresentation: state = request_received , presentation_exchange_id = 4a6cdce9-df8c-4425-8ef5-277ab8902a4b[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#24 Query for credentials in the wallet that satisfy the proof request[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#25 Generate the proof[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#26 Send the proof to X[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mPresentation: state = presentation_sent , presentation_exchange_id = 4a6cdce9-df8c-4425-8ef5-277ab8902a4b[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mEVALUATION| Construct proof to Tecnico: 0.0001s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mEVALUATION| Construct proof to Tecnico: 0.1352s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mPresentation: state = request_received , presentation_exchange_id = f17bd5a9-0550-41e6-a574-a1c2cf290581[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#24 Query for credentials in the wallet that satisfy the proof request[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#25 Generate the proof[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#26 Send the proof to X[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mPresentation: state = presentation_sent , presentation_exchange_id = f17bd5a9-0550-41e6-a574-a1c2cf290581[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mEVALUATION| Construct proof to Tecnico: 0.0001s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mEVALUATION| Construct proof to Tecnico: 0.1381s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mPresentation: state = request_received , presentation_exchange_id = 29759e3f-2325-457d-92d4-eba67d575684[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#24 Query for credentials in the wallet that satisfy the proof request[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#25 Generate the proof[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#26 Send the proof to X[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mPresentation: state = presentation_sent , presentation_exchange_id = 29759e3f-2325-457d-92d4-eba67d575684[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mEVALUATION| Construct proof to Tecnico: 0.0001s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mEVALUATION| Construct proof to Tecnico: 0.1371s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mPresentation: state = request_received , presentation_exchange_id = f59933c9-b7b6-40de-ba75-178a79c4a3c1[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#24 Query for credentials in the wallet that satisfy the proof request[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#25 Generate the proof[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;1m
+#26 Send the proof to X[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [17A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mPresentation: state = presentation_sent , presentation_exchange_id = f59933c9-b7b6-40de-ba75-178a79c4a3c1[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mEVALUATION| Construct proof to Tecnico: 0.0001s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[9D[4A[J[0m[?7h[?2004l[?1l[0m[?7h[0;35mEVALUATION| Construct proof to Tecnico: 0.1332s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]:                                                                       [79C [9C[?7h[0m[?12l[?25h[?25l[?7l[9D[0m[3/4/X]:  [0m[K[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m                                                                               [79C [18A[9C[?7h[0m[?12l[?25h[?25l[?7l[0mx [?7h[0m[?12l[?25h[?25l[?7l[?7h[0m[?12l[?25h[?25l[?7l[4A[10D[0m[J[0m   (3) Send Message[0m
+[0m   (4) Input New Invitation[0m
+[0m   (5) Create Invite[0m
+[0m   (X) Exit?                                                                   [79C [0m
+[0m[3/4/X]: x                                                                     [79C [0m
+[J[?7h[0m[?12l[?25h[?2004lAlice      | 
+Alice      | Shutting down
+[0m[?7h[0mAlice      | [0;34mExited with return code 0[0m
+[0m
